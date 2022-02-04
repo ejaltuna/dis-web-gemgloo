@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gemgloo CRM</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Fontastic Custom icon font-->
+    <link rel="stylesheet" href="css/fontastic.css">
+    <!-- Google fonts - Poppins -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/logo-gemgloo.png">
+   
+  </head>
+  <body>
+    <div class="page">
+      <!-- Main Navbar-->
+      <header class="header">
+        <nav class="navbar">
+          <!-- Search Box-->
+          <div class="search-box">
+            <button class="dismiss"><i class="icon-close"></i></button>
+            <form id="searchForm" action="#" role="search">
+              <input type="search" placeholder="Escribe Lo que Deseas Buscar" class="form-control">
+            </form>
+          </div>
+          <div class="container-fluid">
+            <div class="navbar-holder d-flex align-items-center justify-content-between">
+              <!-- Navbar Header-->
+              <div class="navbar-header">
+                <!-- Navbar Brand --><a href="index.html" class="navbar-brand tanm">
+                  <div class="brand-text brand-big"><img style="width: 90%; margin-right: -1049px;" src="img/logo-gemgloo.png"> </img><strong>Gemgloo</strong></div>
+                  <div class="brand-text brand-small tam"><img style="width: 99%;  margin-right: -1049px;" src="img/logo-gemgloo.png"></img></div></a>
+                <!-- Toggle Button--><a id="toggle-btn" href="index.html" class="menu-btn active"><span></span><span></span><span></span></a>
+              </div>
+              <!-- Navbar Menu -->
+              <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
+                <!-- Search-->
+                <li class="nav-item d-flex align-items-center"><a id="search" href="#"><i class="icon-search"> </i></a></li>
+            
+                <!-- Languages dropdown    -->
+                <li class="nav-item dropdown"><a id="languages" rel="nofollow" data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link language dropdown-toggle"><i class="fa fa-cogs"></i><span class="d-none d-sm-inline-block">Ajustes</span></a>
+                  <ul aria-labelledby="languages" class="dropdown-menu">
+                    <li><a rel="nofollow" href="#" class="dropdown-item"> <i class="fa fa-user"></i>Mi Perfil</a></li>
+                    <li><a rel="nofollow" href="#" class="dropdown-item"> <i class="fa fa-cogs"></i>Configuracion</a></li>
+                  </ul>
+                </li>
+                <!-- Logout    -->
+                <li class="nav-item"><a href="login.html" class="nav-link logout">Salir<i class="fa fa-sign-out"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="page-content d-flex align-items-stretch"> 
+        <!-- Side Navbar -->
+        <nav class="side-navbar">
+          <!-- Sidebar Header-->
+          <div class="sidebar-header d-flex align-items-center">
+            <div class="avatar"><img src="img/user.png" alt="..." class="img-fluid rounded-circle"></div>
+            <div class="title">
+              <h1 class="h4">Enrique </h1>
+              <p>Tipo de Usuario.</p>
+            </div>
+          </div>
+          <!-- Sidebar Navidation Menus--><span class="heading">MENÚ</span>
+          <ul class="list-unstyled">
+                    <li class="active"><a href="index.html"> <i class="icon-home"></i>Inicio </a></li>
+                    <li><a href="lista.html"> <i class="icon-grid"></i>Contactos </a></li>
+                    <li><a href="#"> <i class="fa fa-bar-chart"></i>Empresa  </a></li>
+                    <li><a href="#"> <i class="icon-padnote"></i>Negociaciones</a></li>
+                    <li><a href="tables.html" > <i class="fa fa-certificate"></i>Proyectos</a></li>
+                    <li><a href="#"> <i class="icon-padnote"></i>Ventas</a></li>
+                    <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Actividades</a>
+                    <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
+                        <li><a href="#">Tarea</a></li>
+                        <li><a href="#">LLamada</a></li>
+                        <li><a href="#">Reunion</a></li>
+                      </ul></li>
+                    <li><a href="#"> <i class="fa fa-cogs"></i>Configuraciones</a></li>
+          </ul>
+          
+        </nav>
+       <div class="content-inner">
+          <!-- Page Header-->
+          <header class="page-header">
+            <div class="container-fluid">
+              <h1 class="no-margin-bottom text-center">BIENVENIDO.</h1>
+            </div>
+          </header>
+           <div class="breadcrumb-holder container-fluid">
+            <ul class="breadcrumb">
+              <li class="breadcrumb-item"><h3>Enrique </h3></li>
+              <li class="breadcrumb-item active">Las Actividades para hoy...!  </li>
+            </ul>
+          </div>
+
+        <section class="updates no-padding-top" style="margin-top: 5%;">
+            <div class="container-fluid">
+              <div class="row">
+                <!-- Recent Updates-->
+                <div class="col-lg-4">
+                  <div class="recent-updates card">
+                    <div class="card-close">
+                      <div class="dropdown">
+                        <button type="button" id="closeCard6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-ellipsis-v"></i></button>
+                        <div aria-labelledby="closeCard6" class="dropdown-menu dropdown-menu-right has-shadow"><a href="#" class="dropdown-item remove"> <i class="fa fa-times"></i>Cerrar</a><a href="#" class="dropdown-item edit"> <i class="fa fa-gear"></i>Agregar</a></div>
+                      </div>
+                    </div>
+                    <div class="card-header">
+                      <h3 class="h4" style="color: white">Tareas</h3>
+                    </div>
+                    <div class="card-body no-padding">
+                      <!-- Item-->
+                      <div class="item d-flex justify-content-between">
+                        <div class="info d-flex">
+                          <div class="icon"><i class="icon-rss-feed"></i></div>
+                          <div class="title">
+                            <h5>Lorem ipsum dolor sit amet.</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed.</p>
+                          </div>
+                        </div>
+                        <div class="date text-right"><strong>24</strong><span>May</span></div>
+                      </div>
+                      <!-- Item-->
+                      <div class="item d-flex justify-content-between">
+                        <div class="info d-flex">
+                          <div class="icon"><i class="icon-rss-feed"></i></div>
+                          <div class="title">
+                            <h5>Lorem ipsum dolor sit amet.</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed.</p>
+                          </div>
+                        </div>
+                        <div class="date text-right"><strong>24</strong><span>May</span></div>
+                      </div>
+                      <!-- Item        -->
+                      <div class="item d-flex justify-content-between">
+                        <div class="info d-flex">
+                          <div class="icon"><i class="icon-rss-feed"></i></div>
+                          <div class="title">
+                            <h5>Lorem ipsum dolor sit amet.</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed.</p>
+                          </div>
+                        </div>
+                        <div class="date text-right"><strong>24</strong><span>May</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Daily Feeds -->
+                <div class="col-lg-4">
+                  <div class="daily-feeds card"> 
+                    <div class="card-close">
+                      <div class="dropdown">
+                        <button type="button" id="closeCard7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-ellipsis-v"></i></button>
+                        <div aria-labelledby="closeCard7" class="dropdown-menu dropdown-menu-right has-shadow"><a href="#" class="dropdown-item remove"> <i class="fa fa-times"></i>Cerrar</a><a href="#" class="dropdown-item edit"> <i class="fa fa-gear"></i>Agregar</a></div>
+                      </div>
+                    </div>
+                    <div class="card-header">
+                      <h3 class="h4" style="color: white">Reuniones</h3>
+                    </div>
+                    <div class="card-body no-padding">
+                      <!-- Item-->
+                      <div class="item">
+                        <div class="feed d-flex justify-content-between">
+                          <div class="feed-body d-flex justify-content-between"><a href="#" class="feed-profile"><img src="img/avatar-5.jpg" alt="person" class="img-fluid rounded-circle"></a>
+                            <div class="content">
+                              <h5>Aria Smith</h5><span>Posted a new blog </span>
+                              <div class="full-date"><small>Today 5:60 pm - 12.06.2014</small></div>
+                            </div>
+                          </div>
+                          <div class="date text-right"><small>5min ago</small></div>
+                        </div>
+                      </div>
+                      <!-- Item-->
+                      <div class="item"> 
+                        <div class="feed d-flex justify-content-between">
+                          <div class="feed-body d-flex justify-content-between"><a href="#" class="feed-profile"><img src="img/avatar-5.jpg" alt="person" class="img-fluid rounded-circle"></a>
+                            <div class="content">
+                              <h5>Frank Williams</h5><span>Posted a new blog </span>
+                              <div class="full-date"><small>Today 5:60 pm - 12.06.2014</small></div>
+                              <div class="CTAs"><a href="#" class="btn btn-xs btn-secondary"><i class="fa fa-thumbs-up"> </i>Like</a><a href="#" class="btn btn-xs btn-secondary"><i class="fa fa-heart"> </i>Love    </a></div>
+                            </div>
+                          </div>
+                          <div class="date text-right"><small>5min ago</small></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Recent Activities -->
+                <div class="col-lg-4">
+                  <div class="recent-activities card">
+                    <div class="card-close">
+                      <div class="dropdown">
+                        <button type="button" id="closeCard8" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-ellipsis-v"></i></button>
+                        <div aria-labelledby="closeCard8" class="dropdown-menu dropdown-menu-right has-shadow"><a href="#" class="dropdown-item remove"> <i class="fa fa-times"></i>Cerrar</a><a href="#" class="dropdown-item edit"> <i class="fa fa-gear"></i>Agregar</a></div>
+                      </div>
+                    </div>
+                    <div class="card-header">
+                      <h3 class="h4" style="color: white">LLamadas</h3>
+                    </div>
+                    <div class="card-body no-padding">
+                      <div class="item">
+                        <div class="row">
+                          <div class="col-4 date-holder text-right">
+                            <div class="icon"><i class="icon-clock"></i></div>
+                            <div class="date"> <span class="text-info">Hace 30 min</span></div>
+                          </div>
+                          <div class="col-8 content">
+                            <h5>LLamada de Enrique</h5>
+                            <p>Lorem ipsum dolor sit amet, </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="row">
+                          <div class="col-4 date-holder text-right">
+                            <div class="icon"><i class="icon-clock"></i></div>
+                            <div class="date"><span class="text-info">Hace 1 hora</span></div>
+                          </div>
+                          <div class="col-8 content">
+                            <h5>LLamada de Jose</h5>
+                            <p>Lorem ipsum dolor sit amet,</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+         <footer class="main-footer">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-6">
+                  <p>Gemgloo CRM &copy; 2018</p>
+                </div>
+                <div class="col-sm-6 text-right">
+                  <p>Diseñado por <a href="http://www.daientec.com.ve/" terget="black" class="external"> Daien-Tec</a>
+                 
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper.js/umd/popper.min.js"> </script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/chart.js/Chart.min.js"></script>
+    <script src="vendor/jquery-validation/jquery.validate.min.js"></script>
+    <script src="js/charts-home.js"></script>
+    <!-- Main File-->
+    <script src="js/front.js"></script>
+  </body>
+</html>
